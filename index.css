@@ -1,0 +1,124 @@
+/* Corpo da Página */
+
+body {
+    font-family: 'Poppins', sans-serif; /* Fonte Poppins */
+    margin: 0; /* Margem */
+    padding: 0; /* Espaço */
+    background-color: #f8f8f8; /* Cor de fundo cinza */
+}
+
+/* Menu */
+
+.menu {
+    background-color: #b080b5; /* Cor roxa suave */
+    padding: 10px; /* Espaço interno */
+}
+
+.menu ul {
+    list-style-type: none; /* Remove marcador de lista */
+    margin: 0; /* Margem */
+    padding: 0; /* Espaço */
+    display: flex; /* Alinha os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+.menu li {
+    margin: 0 15px; /* Margem */
+    position: relative; /* Posição relativa */
+}
+
+.menu a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: white; /* Cor do texto */
+    font-size: 18px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    padding: 5px 10px; /* Espaço interno */
+    border-radius: 8px; /* Borda arredondada */
+    transition: background-color 0.3s; /* Transição de cor ao passar o mouse */
+}
+
+.menu a:hover {
+    background-color: #f0e0f5; /* Cor da caixinha ao passar o mouse */
+    color: #b080b5; /* Cor do texto ao passar o mouse */
+}
+
+/* Home */
+
+.container {
+    display: flex; /* Alinha os blocos horizontalmente */
+    justify-content: space-around; /* Espaça igualmente os blocos */
+    align-items: center; /* Alinha os blocos verticalmente */
+    padding: 20px; /* Espaço interno */
+    flex-wrap: wrap; /* Permite que os blocos quebrem de linha em telas menores */
+}
+
+.block {
+    background-color: white; /* Fundo branco */
+    border: 2px solid #b080b5; /* Borda roxa */
+    color: #333; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 15px; /* Espaço interno */
+    border-radius: 8px; /* Borda arredondada */
+    flex: 1; /* Divide o espacamento entre os blocos */
+    margin: 10px; /* Margem */
+    min-width: 200px; /* Largura mínima */
+    max-width: 250px; /* Largura máxima */
+    height: 300px; /* Altura automática */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    display: flex; /* Alinha os elementos dentro do bloco */
+    flex-direction: column; /* Empilha título e texto */
+    justify-content: space-between; /* Espaça os elementos dentro do bloco */
+}
+
+.block-title {
+    margin-bottom: 5px; /* Espaçamento entre título e corpo */
+    font-size: 20px; /* Tamanho da fonte */
+    color: #b080b5; /* Cor roxa */
+    text-align: center; /* Centraliza o texto */
+    order: -1; /* Faz o título aparecer no topo */
+}
+
+.block-text {
+    font-size: 12px; /* Tamanho da fonte */
+    color: #333; /* Cor do texto do corpo */
+    line-height: 1.5; /* Para melhorar a legibilidade */
+    margin-top: auto; /* Empurra o texto para o final do bloco */
+}
+
+.block-image {
+    max-width: 50%; /* Faz a imagem ocupar toda a largura do bloco */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Bordas arredondadas para a imagem */
+    margin-block: center; /* Centraliza a imagem verticalmente dentro do bloco */
+    align-self: center; /* Centraliza a imagem horizontalmente dentro do bloco */
+    
+}
+
+/* Rodapé */
+.footer {
+    background-color: #b080b5; /* Cor roxa suave */
+    color: white; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px 0; /* Espaço interno */
+}
+
+.footer p {
+    margin: 0; /* Margem */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+.footer-links {
+    margin-top: 10px; /* Margem */
+}
+
+.footer-links a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: #f0e0f5; /* Cor do texto */
+    margin: 0 10px; /* Margem */
+    font-size: 14px; /* Tamanho da fonte */
+    transition: color 0.3s; /* Transição de cor ao passar o mouse */
+}
+
+.footer-links a:hover {
+    color: white; /* Cor do texto ao passar o mouse */
+}

@@ -1,0 +1,124 @@
+/* Corpo da Página */
+
+body {
+    font-family: 'Poppins', sans-serif; /* Fonte Poppins */
+    margin: 0; /* Margem */
+    padding: 0; /* Espaço */
+    background-color: #f8f8f8; /* Cor de fundo cinza */
+}
+
+/* Menu */
+
+.menu {
+    background-color: #b080b5; /* Cor roxa suave */
+    padding: 10px; /* Espaço interno */
+}
+
+.menu ul {
+    list-style-type: none; /* Remove marcador de lista */
+    margin: 0; /* Margem */
+    padding: 0; /* Espaço */
+    display: flex; /* Alinha os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+.menu li {
+    margin: 0 15px; /* Margem */
+    position: relative; /* Posição relativa */
+}
+
+.menu a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: white; /* Cor do texto */
+    font-size: 18px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    padding: 5px 10px; /* Espaço interno */
+    border-radius: 8px; /* Borda arredondada */
+    transition: background-color 0.3s; /* Transição de cor ao passar o mouse */
+}
+
+.menu a:hover {
+    background-color: #f0e0f5; /* Cor da caixinha ao passar o mouse */
+    color: #b080b5; /* Cor do texto ao passar o mouse */
+}
+
+/* Título e Subtítulo */
+
+.titulo {
+    font-size: 36px; /* Tamanho da fonte */
+    color: #b080b5; /* Cor roxa */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 30px; /* Espaçamento superior */
+    margin-bottom: 20px; /* Espaçamento inferior */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.subtitulo {
+    font-size: 24px; /* Tamanho da fonte */
+    color: #b080b5; /* Cor roxa */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 30px; /* Espaçamento superior */
+    margin-bottom: 20px; /* Espaçamento inferior */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+    font-weight: bold; /* Negrito */
+}
+
+/* Estilização dos Blocos */
+
+.blocomestre {
+    display: flex; /* Alinha os blocos horizontalmente */
+    justify-content: center; /* Espaça igualmente os blocos */
+    align-items: center; /* Alinha os blocos verticalmente */
+    padding: 20px; /* Espaço interno */
+    flex-wrap: wrap; /* Permite que os blocos quebrem de linha em telas menores */
+    gap: 20px; /* Espaço entre os blocos */
+}
+
+/* Embed do Instagram */
+
+.instagram-container {
+    flex: 1; /* Divide o espacamento entre os blocos */
+    margin: 10px; /* Margem */
+    min-width: 400px; /* Largura mínima */
+    max-width: 250px; /* Largura máxima */
+    height: 600px; /* Altura automática */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    display: flex; /* Alinha os elementos dentro do bloco */
+    flex-direction: column; /* Empilha título e texto */
+    justify-content: space-between; /* Espaça os elementos dentro do bloco */
+}
+
+.instagram-media {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Rodapé */
+.footer {
+    background-color: #b080b5; /* Cor roxa suave */
+    color: white; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px 0; /* Espaço interno */
+}
+
+.footer p {
+    margin: 0; /* Margem */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+.footer-links {
+    margin-top: 10px; /* Margem */
+}
+
+.footer-links a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: #f0e0f5; /* Cor do texto */
+    margin: 0 10px; /* Margem */
+    font-size: 14px; /* Tamanho da fonte */
+    transition: color 0.3s; /* Transição de cor ao passar o mouse */
+}
+
+.footer-links a:hover {
+    color: white; /* Cor do texto ao passar o mouse */
+}
